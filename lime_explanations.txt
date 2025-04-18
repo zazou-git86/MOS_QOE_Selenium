@@ -1,950 +1,950 @@
 
 ---
 🎯 Instance 0
-Intercept : 2.756
-Prediction_local (LIME) : 2.122
-Prediction_model (RF)   : 2.222
-Écart : 0.100
+Intercept : 2.770
+Prediction_local (LIME) : 2.067
+Prediction_model (RF)   : 2.261
+Écart : 0.194
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput <= 312023.00                            → +0.063
-  + delay_jitter > 5859.00                             → +0.021
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 5.77 < bitrate_log <= 6.54                         → -0.260
-  - 320.00 < avg_bitrate <= 690.00                     → -0.245
-  - 4.36 < loss_rate <= 760.00                         → -0.103
-  - delay_log > 5.21                                   → -0.066
-  - delay_qos > 183.00                                 → -0.040
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.004
-
----
-🎯 Instance 1
-Intercept : 2.702
-Prediction_local (LIME) : 2.290
-Prediction_model (RF)   : 1.940
-Écart : 0.350
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + throughput_jitter <= 4541423.00                    → +0.077
-  + 4.43 < delay_log <= 4.88                           → +0.031
-  + 83.00 < delay_qos <= 131.00                        → +0.021
-  + throughput <= 312023.00                            → +0.016
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.010
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 5.77 < bitrate_log <= 6.54                         → -0.252
-  - 320.00 < avg_bitrate <= 690.00                     → -0.233
-  - 0.34 < loss_rate <= 4.36                           → -0.081
-
----
-🎯 Instance 2
-Intercept : 2.876
-Prediction_local (LIME) : 1.783
-Prediction_model (RF)   : 1.562
-Écart : 0.220
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 490996.00 < throughput <= 959729.00                → +0.040
-  + delay_jitter > 5859.00                             → +0.036
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.412
-  - bitrate_log <= 5.77                                → -0.404
-  - loss_rate <= 0.34                                  → -0.172
-  - throughput_jitter > 22963511.00                    → -0.072
-  - delay_qos > 183.00                                 → -0.058
-  - delay_log > 5.21                                   → -0.051
-
----
-🎯 Instance 3
-Intercept : 2.533
-Prediction_local (LIME) : 2.795
-Prediction_model (RF)   : 2.337
-Écart : 0.459
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 6.54 < bitrate_log <= 7.27                         → +0.158
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.118
-  + throughput_jitter <= 4541423.00                    → +0.075
-  + 490996.00 < throughput <= 959729.00                → +0.021
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 0.34 < loss_rate <= 4.36                           → -0.066
-  - 4.88 < delay_log <= 5.21                           → -0.027
-  - 131.00 < delay_qos <= 183.00                       → -0.010
-  - 630.00 < delay_jitter <= 2145.00                   → -0.006
-
----
-🎯 Instance 4
-Intercept : 2.578
-Prediction_local (LIME) : 2.669
-Prediction_model (RF)   : 2.615
-Écart : 0.054
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 6.54 < bitrate_log <= 7.27                         → +0.141
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.127
-  + 312023.00 < throughput <= 490996.00                → +0.023
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.023
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - loss_rate <= 0.34                                  → -0.184
-  - 2145.00 < delay_jitter <= 5859.00                  → -0.018
-  - 131.00 < delay_qos <= 183.00                       → -0.016
-  - 4.88 < delay_log <= 5.21                           → -0.006
-
----
-🎯 Instance 5
-Intercept : 2.878
-Prediction_local (LIME) : 1.759
-Prediction_model (RF)   : 1.523
-Écart : 0.236
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 490996.00 < throughput <= 959729.00                → +0.052
-  + delay_jitter > 5859.00                             → +0.000
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.403
-  - bitrate_log <= 5.77                                → -0.396
-  - loss_rate <= 0.34                                  → -0.171
-  - throughput_jitter > 22963511.00                    → -0.072
-  - delay_log > 5.21                                   → -0.070
-  - delay_qos > 183.00                                 → -0.059
-
----
-🎯 Instance 6
-Intercept : 2.515
-Prediction_local (LIME) : 2.858
-Prediction_model (RF)   : 2.826
-Écart : 0.032
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 6.54 < bitrate_log <= 7.27                         → +0.149
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.118
-  + throughput <= 312023.00                            → +0.057
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.036
-  + delay_jitter > 5859.00                             → +0.032
-  + 83.00 < delay_qos <= 131.00                        → +0.024
-  + 4.43 < delay_log <= 4.88                           → +0.013
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 0.34 < loss_rate <= 4.36                           → -0.086
-
----
-🎯 Instance 7
-Intercept : 2.786
-Prediction_local (LIME) : 2.036
-Prediction_model (RF)   : 2.497
-Écart : 0.460
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + throughput <= 312023.00                            → +0.038
-  + delay_jitter > 5859.00                             → +0.024
-  + 10334616.00 < throughput_jitter <= 22963511.00     → +0.001
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 5.77 < bitrate_log <= 6.54                         → -0.273
-  - 320.00 < avg_bitrate <= 690.00                     → -0.238
-  - 4.36 < loss_rate <= 760.00                         → -0.147
-  - delay_qos > 183.00                                 → -0.083
-  - delay_log > 5.21                                   → -0.071
-
----
-🎯 Instance 8
-Intercept : 2.861
-Prediction_local (LIME) : 1.830
-Prediction_model (RF)   : 1.706
-Écart : 0.124
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 490996.00 < throughput <= 959729.00                → +0.037
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.009
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.415
-  - bitrate_log <= 5.77                                → -0.402
-  - loss_rate <= 0.34                                  → -0.188
-  - 131.00 < delay_qos <= 183.00                       → -0.028
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.026
-  - 4.88 < delay_log <= 5.21                           → -0.017
-
----
-🎯 Instance 9
-Intercept : 2.312
-Prediction_local (LIME) : 3.473
-Prediction_model (RF)   : 4.120
-Écart : 0.647
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.541
-  + bitrate_log > 7.27                                 → +0.520
-  + throughput_jitter <= 4541423.00                    → +0.074
-  + 83.00 < delay_qos <= 131.00                        → +0.041
-  + 4.43 < delay_log <= 4.88                           → +0.031
-  + 312023.00 < throughput <= 490996.00                → +0.031
-  + 630.00 < delay_jitter <= 2145.00                   → +0.003
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 0.34 < loss_rate <= 4.36                           → -0.079
-
----
-🎯 Instance 10
-Intercept : 2.854
-Prediction_local (LIME) : 1.863
-Prediction_model (RF)   : 1.730
-Écart : 0.133
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + throughput <= 312023.00                            → +0.043
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.042
+  + throughput <= 312023.00                            → +0.018
   + delay_jitter > 5859.00                             → +0.013
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.405
-  - bitrate_log <= 5.77                                → -0.400
-  - loss_rate <= 0.34                                  → -0.166
-  - delay_log > 5.21                                   → -0.069
-  - delay_qos > 183.00                                 → -0.049
+  - 320.00 < avg_bitrate <= 690.00                     → -0.270
+  - 5.77 < bitrate_log <= 6.54                         → -0.226
+  - 4.36 < loss_rate <= 760.00                         → -0.110
+  - delay_log > 5.21                                   → -0.063
+  - delay_qos > 183.00                                 → -0.046
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.019
 
 ---
-🎯 Instance 11
-Intercept : 2.236
-Prediction_local (LIME) : 3.704
-Prediction_model (RF)   : 3.127
-Écart : 0.577
+🎯 Instance 1
+Intercept : 2.714
+Prediction_local (LIME) : 2.251
+Prediction_model (RF)   : 1.955
+Écart : 0.296
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.542
-  + bitrate_log > 7.27                                 → +0.526
-  + loss_rate > 760.00                                 → +0.379
-  + 490996.00 < throughput <= 959729.00                → +0.042
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.017
-  + 630.00 < delay_jitter <= 2145.00                   → +0.009
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 131.00 < delay_qos <= 183.00                       → -0.027
-  - 4.88 < delay_log <= 5.21                           → -0.019
-
----
-🎯 Instance 12
-Intercept : 2.399
-Prediction_local (LIME) : 3.232
-Prediction_model (RF)   : 2.391
-Écart : 0.841
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + loss_rate > 760.00                                 → +0.384
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.132
-  + 6.54 < bitrate_log <= 7.27                         → +0.126
-  + throughput_jitter <= 4541423.00                    → +0.089
-  + delay_qos <= 83.00                                 → +0.051
-  + throughput <= 312023.00                            → +0.038
-  + delay_log <= 4.43                                  → +0.038
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - delay_jitter <= 630.00                             → -0.026
-
----
-🎯 Instance 13
-Intercept : 2.808
-Prediction_local (LIME) : 1.992
-Prediction_model (RF)   : 2.765
-Écart : 0.773
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 4.43 < delay_log <= 4.88                           → +0.043
-  + 83.00 < delay_qos <= 131.00                        → +0.034
+  + throughput_jitter <= 4541423.00                    → +0.049
+  + throughput <= 312023.00                            → +0.041
+  + 4.43 < delay_log <= 4.88                           → +0.030
+  + 83.00 < delay_qos <= 131.00                        → +0.014
 
 🟥 Contributions NÉGATIVES (↓ MOS):
   - 320.00 < avg_bitrate <= 690.00                     → -0.267
-  - 5.77 < bitrate_log <= 6.54                         → -0.259
-  - loss_rate <= 0.34                                  → -0.165
-  - throughput > 959729.00                             → -0.100
-  - throughput_jitter > 22963511.00                    → -0.092
-  - 2145.00 < delay_jitter <= 5859.00                  → -0.011
-
----
-🎯 Instance 14
-Intercept : 2.761
-Prediction_local (LIME) : 2.090
-Prediction_model (RF)   : 1.893
-Écart : 0.197
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 490996.00 < throughput <= 959729.00                → +0.043
-  + 4.43 < delay_log <= 4.88                           → +0.039
-  + 83.00 < delay_qos <= 131.00                        → +0.030
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.250
-  - 5.77 < bitrate_log <= 6.54                         → -0.249
-  - loss_rate <= 0.34                                  → -0.169
-  - throughput_jitter > 22963511.00                    → -0.101
-  - delay_jitter > 5859.00                             → -0.014
-
----
-🎯 Instance 15
-Intercept : 2.879
-Prediction_local (LIME) : 1.771
-Prediction_model (RF)   : 1.697
-Écart : 0.074
-
-🟩 Contributions POSITIVES (↑ MOS):
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.395
-  - bitrate_log <= 5.77                                → -0.393
-  - 4.36 < loss_rate <= 760.00                         → -0.124
-  - throughput > 959729.00                             → -0.098
-  - throughput_jitter > 22963511.00                    → -0.073
-  - 131.00 < delay_qos <= 183.00                       → -0.011
-  - 2145.00 < delay_jitter <= 5859.00                  → -0.007
-  - 4.88 < delay_log <= 5.21                           → -0.005
-
----
-🎯 Instance 16
-Intercept : 2.323
-Prediction_local (LIME) : 3.442
-Prediction_model (RF)   : 4.278
-Écart : 0.836
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.543
-  + bitrate_log > 7.27                                 → +0.532
-  + throughput_jitter <= 4541423.00                    → +0.064
-  + 312023.00 < throughput <= 490996.00                → +0.037
-  + 83.00 < delay_qos <= 131.00                        → +0.029
-  + 4.43 < delay_log <= 4.88                           → +0.026
-
-🟥 Contributions NÉGATIVES (↓ MOS):
+  - 5.77 < bitrate_log <= 6.54                         → -0.243
   - 0.34 < loss_rate <= 4.36                           → -0.084
-  - delay_jitter <= 630.00                             → -0.027
+  - 2145.00 < delay_jitter <= 5859.00                  → -0.004
 
 ---
-🎯 Instance 17
-Intercept : 2.794
-Prediction_local (LIME) : 2.015
-Prediction_model (RF)   : 2.768
-Écart : 0.753
+🎯 Instance 2
+Intercept : 2.893
+Prediction_local (LIME) : 1.718
+Prediction_model (RF)   : 1.558
+Écart : 0.160
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 490996.00 < throughput <= 959729.00                → +0.020
+  + 490996.00 < throughput <= 959729.00                → +0.019
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 5.77 < bitrate_log <= 6.54                         → -0.263
-  - 320.00 < avg_bitrate <= 690.00                     → -0.254
-  - 4.36 < loss_rate <= 760.00                         → -0.100
-  - throughput_jitter > 22963511.00                    → -0.070
+  - avg_bitrate <= 320.00                              → -0.417
+  - bitrate_log <= 5.77                                → -0.375
+  - loss_rate <= 0.34                                  → -0.191
+  - throughput_jitter > 22963511.00                    → -0.071
+  - delay_qos > 183.00                                 → -0.070
   - delay_log > 5.21                                   → -0.060
-  - delay_qos > 183.00                                 → -0.047
-  - delay_jitter > 5859.00                             → -0.005
+  - delay_jitter > 5859.00                             → -0.009
 
 ---
-🎯 Instance 18
-Intercept : 2.531
-Prediction_local (LIME) : 2.769
-Prediction_model (RF)   : 2.063
-Écart : 0.706
+🎯 Instance 3
+Intercept : 2.546
+Prediction_local (LIME) : 2.768
+Prediction_model (RF)   : 2.360
+Écart : 0.407
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 6.54 < bitrate_log <= 7.27                         → +0.141
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.130
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.038
-  + 312023.00 < throughput <= 490996.00                → +0.023
-  + 630.00 < delay_jitter <= 2145.00                   → +0.005
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.142
+  + 6.54 < bitrate_log <= 7.27                         → +0.139
+  + 490996.00 < throughput <= 959729.00                → +0.053
+  + throughput_jitter <= 4541423.00                    → +0.045
+  + 630.00 < delay_jitter <= 2145.00                   → +0.007
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 0.34 < loss_rate <= 4.36                           → -0.091
-  - 4.88 < delay_log <= 5.21                           → -0.005
+  - 0.34 < loss_rate <= 4.36                           → -0.108
+  - 131.00 < delay_qos <= 183.00                       → -0.038
+  - 4.88 < delay_log <= 5.21                           → -0.019
+
+---
+🎯 Instance 4
+Intercept : 2.573
+Prediction_local (LIME) : 2.694
+Prediction_model (RF)   : 2.591
+Écart : 0.102
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.142
+  + 6.54 < bitrate_log <= 7.27                         → +0.133
+  + 312023.00 < throughput <= 490996.00                → +0.048
+  + 2145.00 < delay_jitter <= 5859.00                  → +0.010
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.005
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - loss_rate <= 0.34                                  → -0.189
+  - 4.88 < delay_log <= 5.21                           → -0.026
   - 131.00 < delay_qos <= 183.00                       → -0.002
 
 ---
-🎯 Instance 19
-Intercept : 2.481
-Prediction_local (LIME) : 2.973
-Prediction_model (RF)   : 2.236
-Écart : 0.737
+🎯 Instance 5
+Intercept : 2.865
+Prediction_local (LIME) : 1.773
+Prediction_model (RF)   : 1.521
+Écart : 0.252
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + loss_rate > 760.00                                 → +0.380
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.124
-  + 6.54 < bitrate_log <= 7.27                         → +0.116
-  + 83.00 < delay_qos <= 131.00                        → +0.033
-  + 4.43 < delay_log <= 4.88                           → +0.017
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - throughput > 959729.00                             → -0.094
-  - throughput_jitter > 22963511.00                    → -0.073
-  - 630.00 < delay_jitter <= 2145.00                   → -0.012
-
----
-🎯 Instance 20
-Intercept : 2.720
-Prediction_local (LIME) : 2.246
-Prediction_model (RF)   : 1.896
-Écart : 0.350
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 312023.00 < throughput <= 490996.00                → +0.055
-  + delay_log <= 4.43                                  → +0.049
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.018
-  + delay_qos <= 83.00                                 → +0.012
-  + 630.00 < delay_jitter <= 2145.00                   → +0.004
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.271
-  - 5.77 < bitrate_log <= 6.54                         → -0.266
-  - 0.34 < loss_rate <= 4.36                           → -0.077
-
----
-🎯 Instance 21
-Intercept : 2.862
-Prediction_local (LIME) : 1.843
-Prediction_model (RF)   : 1.429
-Écart : 0.414
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + throughput <= 312023.00                            → +0.053
-  + delay_jitter > 5859.00                             → +0.039
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.407
-  - bitrate_log <= 5.77                                → -0.398
-  - loss_rate <= 0.34                                  → -0.174
-  - delay_log > 5.21                                   → -0.073
-  - delay_qos > 183.00                                 → -0.053
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.005
-
----
-🎯 Instance 22
-Intercept : 2.863
-Prediction_local (LIME) : 1.802
-Prediction_model (RF)   : 1.795
-Écart : 0.007
-
-🟩 Contributions POSITIVES (↑ MOS):
+  + 490996.00 < throughput <= 959729.00                → +0.028
   + delay_jitter > 5859.00                             → +0.016
-  + 312023.00 < throughput <= 490996.00                → +0.003
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - bitrate_log <= 5.77                                → -0.407
-  - avg_bitrate <= 320.00                              → -0.406
-  - 4.36 < loss_rate <= 760.00                         → -0.112
-  - throughput_jitter > 22963511.00                    → -0.061
-  - delay_log > 5.21                                   → -0.060
-  - delay_qos > 183.00                                 → -0.035
+  - avg_bitrate <= 320.00                              → -0.409
+  - bitrate_log <= 5.77                                → -0.387
+  - loss_rate <= 0.34                                  → -0.178
+  - delay_qos > 183.00                                 → -0.066
+  - throughput_jitter > 22963511.00                    → -0.050
+  - delay_log > 5.21                                   → -0.047
 
 ---
-🎯 Instance 23
-Intercept : 2.788
-Prediction_local (LIME) : 2.066
-Prediction_model (RF)   : 2.294
-Écart : 0.228
+🎯 Instance 6
+Intercept : 2.532
+Prediction_local (LIME) : 2.824
+Prediction_model (RF)   : 2.798
+Écart : 0.026
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 4.43 < delay_log <= 4.88                           → +0.029
-  + 83.00 < delay_qos <= 131.00                        → +0.015
-  + 10334616.00 < throughput_jitter <= 22963511.00     → +0.000
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.140
+  + 6.54 < bitrate_log <= 7.27                         → +0.110
+  + 83.00 < delay_qos <= 131.00                        → +0.049
+  + throughput <= 312023.00                            → +0.032
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.024
+  + 4.43 < delay_log <= 4.88                           → +0.016
+  + delay_jitter > 5859.00                             → +0.016
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 0.34 < loss_rate <= 4.36                           → -0.094
+
+---
+🎯 Instance 7
+Intercept : 2.791
+Prediction_local (LIME) : 2.075
+Prediction_model (RF)   : 2.480
+Écart : 0.404
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + throughput <= 312023.00                            → +0.058
+  + delay_jitter > 5859.00                             → +0.002
 
 🟥 Contributions NÉGATIVES (↓ MOS):
   - 320.00 < avg_bitrate <= 690.00                     → -0.274
-  - 5.77 < bitrate_log <= 6.54                         → -0.254
-  - throughput > 959729.00                             → -0.113
-  - 4.36 < loss_rate <= 760.00                         → -0.105
-  - 630.00 < delay_jitter <= 2145.00                   → -0.020
+  - 5.77 < bitrate_log <= 6.54                         → -0.272
+  - 4.36 < loss_rate <= 760.00                         → -0.109
+  - delay_qos > 183.00                                 → -0.064
+  - delay_log > 5.21                                   → -0.051
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.006
+
+---
+🎯 Instance 8
+Intercept : 2.854
+Prediction_local (LIME) : 1.827
+Prediction_model (RF)   : 1.707
+Écart : 0.121
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 490996.00 < throughput <= 959729.00                → +0.043
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - avg_bitrate <= 320.00                              → -0.442
+  - bitrate_log <= 5.77                                → -0.371
+  - loss_rate <= 0.34                                  → -0.195
+  - 131.00 < delay_qos <= 183.00                       → -0.023
+  - 4.88 < delay_log <= 5.21                           → -0.018
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.012
+  - 2145.00 < delay_jitter <= 5859.00                  → -0.007
+
+---
+🎯 Instance 9
+Intercept : 2.324
+Prediction_local (LIME) : 3.438
+Prediction_model (RF)   : 4.144
+Écart : 0.706
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + avg_bitrate > 1430.00                              → +0.544
+  + bitrate_log > 7.27                                 → +0.498
+  + throughput_jitter <= 4541423.00                    → +0.071
+  + 312023.00 < throughput <= 490996.00                → +0.041
+  + 83.00 < delay_qos <= 131.00                        → +0.033
+  + 4.43 < delay_log <= 4.88                           → +0.027
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 0.34 < loss_rate <= 4.36                           → -0.098
+  - 630.00 < delay_jitter <= 2145.00                   → -0.003
+
+---
+🎯 Instance 10
+Intercept : 2.877
+Prediction_local (LIME) : 1.790
+Prediction_model (RF)   : 1.730
+Écart : 0.060
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + throughput <= 312023.00                            → +0.029
+  + delay_jitter > 5859.00                             → +0.013
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - avg_bitrate <= 320.00                              → -0.437
+  - bitrate_log <= 5.77                                → -0.386
+  - loss_rate <= 0.34                                  → -0.189
+  - delay_log > 5.21                                   → -0.062
+  - delay_qos > 183.00                                 → -0.053
+  - 4541423.00 < throughput_jitter <= 10334616.00      → -0.001
+
+---
+🎯 Instance 11
+Intercept : 2.240
+Prediction_local (LIME) : 3.676
+Prediction_model (RF)   : 3.095
+Écart : 0.582
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + avg_bitrate > 1430.00                              → +0.535
+  + bitrate_log > 7.27                                 → +0.499
+  + loss_rate > 760.00                                 → +0.377
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.039
+  + 490996.00 < throughput <= 959729.00                → +0.018
+  + 630.00 < delay_jitter <= 2145.00                   → +0.009
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 4.88 < delay_log <= 5.21                           → -0.025
+  - 131.00 < delay_qos <= 183.00                       → -0.015
+
+---
+🎯 Instance 12
+Intercept : 2.397
+Prediction_local (LIME) : 3.200
+Prediction_model (RF)   : 2.392
+Écart : 0.808
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + loss_rate > 760.00                                 → +0.394
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.151
+  + 6.54 < bitrate_log <= 7.27                         → +0.130
+  + delay_qos <= 83.00                                 → +0.044
+  + throughput_jitter <= 4541423.00                    → +0.041
+  + delay_log <= 4.43                                  → +0.026
+  + throughput <= 312023.00                            → +0.022
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - delay_jitter <= 630.00                             → -0.006
+
+---
+🎯 Instance 13
+Intercept : 2.800
+Prediction_local (LIME) : 2.006
+Prediction_model (RF)   : 2.755
+Écart : 0.749
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 83.00 < delay_qos <= 131.00                        → +0.033
+  + 4.43 < delay_log <= 4.88                           → +0.024
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 5.77 < bitrate_log <= 6.54                         → -0.252
+  - 320.00 < avg_bitrate <= 690.00                     → -0.249
+  - loss_rate <= 0.34                                  → -0.174
+  - throughput > 959729.00                             → -0.097
+  - throughput_jitter > 22963511.00                    → -0.065
+  - 2145.00 < delay_jitter <= 5859.00                  → -0.013
+
+---
+🎯 Instance 14
+Intercept : 2.789
+Prediction_local (LIME) : 2.035
+Prediction_model (RF)   : 1.890
+Écart : 0.145
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + delay_jitter > 5859.00                             → +0.023
+  + 4.43 < delay_log <= 4.88                           → +0.018
+  + 83.00 < delay_qos <= 131.00                        → +0.017
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 320.00 < avg_bitrate <= 690.00                     → -0.269
+  - 5.77 < bitrate_log <= 6.54                         → -0.237
+  - loss_rate <= 0.34                                  → -0.206
+  - throughput_jitter > 22963511.00                    → -0.098
+  - 490996.00 < throughput <= 959729.00                → -0.001
+
+---
+🎯 Instance 15
+Intercept : 2.880
+Prediction_local (LIME) : 1.814
+Prediction_model (RF)   : 1.724
+Écart : 0.090
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 2145.00 < delay_jitter <= 5859.00                  → +0.021
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - avg_bitrate <= 320.00                              → -0.420
+  - bitrate_log <= 5.77                                → -0.383
+  - 4.36 < loss_rate <= 760.00                         → -0.099
+  - throughput > 959729.00                             → -0.098
+  - throughput_jitter > 22963511.00                    → -0.055
+  - 131.00 < delay_qos <= 183.00                       → -0.021
+  - 4.88 < delay_log <= 5.21                           → -0.012
+
+---
+🎯 Instance 16
+Intercept : 2.329
+Prediction_local (LIME) : 3.429
+Prediction_model (RF)   : 4.269
+Écart : 0.840
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + avg_bitrate > 1430.00                              → +0.553
+  + bitrate_log > 7.27                                 → +0.499
+  + throughput_jitter <= 4541423.00                    → +0.081
+  + 83.00 < delay_qos <= 131.00                        → +0.051
+  + 4.43 < delay_log <= 4.88                           → +0.018
+  + 312023.00 < throughput <= 490996.00                → +0.015
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 0.34 < loss_rate <= 4.36                           → -0.096
+  - delay_jitter <= 630.00                             → -0.020
+
+---
+🎯 Instance 17
+Intercept : 2.787
+Prediction_local (LIME) : 2.054
+Prediction_model (RF)   : 2.749
+Écart : 0.695
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 490996.00 < throughput <= 959729.00                → +0.043
+  + delay_jitter > 5859.00                             → +0.014
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 320.00 < avg_bitrate <= 690.00                     → -0.274
+  - 5.77 < bitrate_log <= 6.54                         → -0.241
+  - 4.36 < loss_rate <= 760.00                         → -0.102
+  - throughput_jitter > 22963511.00                    → -0.062
+  - delay_qos > 183.00                                 → -0.059
+  - delay_log > 5.21                                   → -0.052
+
+---
+🎯 Instance 18
+Intercept : 2.549
+Prediction_local (LIME) : 2.772
+Prediction_model (RF)   : 2.089
+Écart : 0.683
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.166
+  + 6.54 < bitrate_log <= 7.27                         → +0.141
+  + 312023.00 < throughput <= 490996.00                → +0.036
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.028
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 0.34 < loss_rate <= 4.36                           → -0.095
+  - 131.00 < delay_qos <= 183.00                       → -0.041
+  - 4.88 < delay_log <= 5.21                           → -0.009
+  - 630.00 < delay_jitter <= 2145.00                   → -0.003
+
+---
+🎯 Instance 19
+Intercept : 2.488
+Prediction_local (LIME) : 2.940
+Prediction_model (RF)   : 2.280
+Écart : 0.660
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + loss_rate > 760.00                                 → +0.368
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.116
+  + 6.54 < bitrate_log <= 7.27                         → +0.110
+  + 630.00 < delay_jitter <= 2145.00                   → +0.028
+  + 4.43 < delay_log <= 4.88                           → +0.018
+  + 83.00 < delay_qos <= 131.00                        → +0.017
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - throughput_jitter > 22963511.00                    → -0.103
+  - throughput > 959729.00                             → -0.100
+
+---
+🎯 Instance 20
+Intercept : 2.711
+Prediction_local (LIME) : 2.266
+Prediction_model (RF)   : 1.891
+Écart : 0.375
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + delay_qos <= 83.00                                 → +0.076
+  + 312023.00 < throughput <= 490996.00                → +0.047
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.028
+  + delay_log <= 4.43                                  → +0.020
+  + 630.00 < delay_jitter <= 2145.00                   → +0.001
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 320.00 < avg_bitrate <= 690.00                     → -0.273
+  - 5.77 < bitrate_log <= 6.54                         → -0.240
+  - 0.34 < loss_rate <= 4.36                           → -0.102
+
+---
+🎯 Instance 21
+Intercept : 2.864
+Prediction_local (LIME) : 1.793
+Prediction_model (RF)   : 1.438
+Écart : 0.355
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + throughput <= 312023.00                            → +0.049
+  + delay_jitter > 5859.00                             → +0.019
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - avg_bitrate <= 320.00                              → -0.415
+  - bitrate_log <= 5.77                                → -0.394
+  - loss_rate <= 0.34                                  → -0.179
+  - delay_log > 5.21                                   → -0.071
+  - delay_qos > 183.00                                 → -0.050
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.031
+
+---
+🎯 Instance 22
+Intercept : 2.877
+Prediction_local (LIME) : 1.795
+Prediction_model (RF)   : 1.804
+Écart : 0.009
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + delay_jitter > 5859.00                             → +0.014
+  + 312023.00 < throughput <= 490996.00                → +0.012
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - avg_bitrate <= 320.00                              → -0.423
+  - bitrate_log <= 5.77                                → -0.376
+  - 4.36 < loss_rate <= 760.00                         → -0.127
+  - throughput_jitter > 22963511.00                    → -0.078
+  - delay_qos > 183.00                                 → -0.055
+  - delay_log > 5.21                                   → -0.050
+
+---
+🎯 Instance 23
+Intercept : 2.751
+Prediction_local (LIME) : 2.147
+Prediction_model (RF)   : 2.313
+Écart : 0.165
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 4.43 < delay_log <= 4.88                           → +0.038
+  + 83.00 < delay_qos <= 131.00                        → +0.031
+  + 10334616.00 < throughput_jitter <= 22963511.00     → +0.014
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 320.00 < avg_bitrate <= 690.00                     → -0.259
+  - 5.77 < bitrate_log <= 6.54                         → -0.226
+  - 4.36 < loss_rate <= 760.00                         → -0.117
+  - throughput > 959729.00                             → -0.076
+  - 630.00 < delay_jitter <= 2145.00                   → -0.007
 
 ---
 🎯 Instance 24
-Intercept : 2.567
-Prediction_local (LIME) : 2.736
-Prediction_model (RF)   : 2.951
-Écart : 0.216
+Intercept : 2.556
+Prediction_local (LIME) : 2.744
+Prediction_model (RF)   : 2.938
+Écart : 0.194
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 6.54 < bitrate_log <= 7.27                         → +0.134
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.113
-  + 312023.00 < throughput <= 490996.00                → +0.030
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.023
+  + 6.54 < bitrate_log <= 7.27                         → +0.144
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.121
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.022
+  + 630.00 < delay_jitter <= 2145.00                   → +0.019
+  + 312023.00 < throughput <= 490996.00                → +0.008
+  + 131.00 < delay_qos <= 183.00                       → +0.002
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 0.34 < loss_rate <= 4.36                           → -0.100
-  - 4.88 < delay_log <= 5.21                           → -0.023
-  - 630.00 < delay_jitter <= 2145.00                   → -0.007
-  - 131.00 < delay_qos <= 183.00                       → -0.001
+  - 0.34 < loss_rate <= 4.36                           → -0.096
+  - 4.88 < delay_log <= 5.21                           → -0.033
 
 ---
 🎯 Instance 25
-Intercept : 2.451
-Prediction_local (LIME) : 3.036
-Prediction_model (RF)   : 2.283
-Écart : 0.753
+Intercept : 2.438
+Prediction_local (LIME) : 3.066
+Prediction_model (RF)   : 2.224
+Écart : 0.842
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + loss_rate > 760.00                                 → +0.352
-  + 6.54 < bitrate_log <= 7.27                         → +0.138
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.112
-  + delay_qos <= 83.00                                 → +0.047
-  + delay_log <= 4.43                                  → +0.034
-  + 630.00 < delay_jitter <= 2145.00                   → +0.014
+  + loss_rate > 760.00                                 → +0.390
+  + 6.54 < bitrate_log <= 7.27                         → +0.140
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.134
+  + delay_log <= 4.43                                  → +0.055
+  + delay_qos <= 83.00                                 → +0.039
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - throughput > 959729.00                             → -0.110
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.002
+  - throughput > 959729.00                             → -0.094
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.019
+  - 630.00 < delay_jitter <= 2145.00                   → -0.017
 
 ---
 🎯 Instance 26
 Intercept : 2.767
-Prediction_local (LIME) : 2.114
-Prediction_model (RF)   : 1.811
-Écart : 0.302
+Prediction_local (LIME) : 2.092
+Prediction_model (RF)   : 1.828
+Écart : 0.264
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + delay_qos <= 83.00                                 → +0.065
-  + delay_log <= 4.43                                  → +0.036
-
-🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.258
-  - 5.77 < bitrate_log <= 6.54                         → -0.253
-  - 4.36 < loss_rate <= 760.00                         → -0.118
-  - throughput > 959729.00                             → -0.080
-  - 630.00 < delay_jitter <= 2145.00                   → -0.039
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.007
-
----
-🎯 Instance 27
-Intercept : 2.752
-Prediction_local (LIME) : 2.142
-Prediction_model (RF)   : 1.790
-Écart : 0.352
-
-🟩 Contributions POSITIVES (↑ MOS):
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.025
-  + 312023.00 < throughput <= 490996.00                → +0.024
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.019
+  + delay_qos <= 83.00                                 → +0.038
+  + 630.00 < delay_jitter <= 2145.00                   → +0.011
+  + delay_log <= 4.43                                  → +0.009
 
 🟥 Contributions NÉGATIVES (↓ MOS):
   - 320.00 < avg_bitrate <= 690.00                     → -0.270
-  - 5.77 < bitrate_log <= 6.54                         → -0.261
-  - 4.36 < loss_rate <= 760.00                         → -0.108
-  - 131.00 < delay_qos <= 183.00                       → -0.024
-  - 4.88 < delay_log <= 5.21                           → -0.014
+  - 5.77 < bitrate_log <= 6.54                         → -0.244
+  - 4.36 < loss_rate <= 760.00                         → -0.107
+  - throughput > 959729.00                             → -0.087
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.026
+
+---
+🎯 Instance 27
+Intercept : 2.763
+Prediction_local (LIME) : 2.095
+Prediction_model (RF)   : 1.783
+Écart : 0.312
+
+🟩 Contributions POSITIVES (↑ MOS):
+  + 312023.00 < throughput <= 490996.00                → +0.020
+  + 2145.00 < delay_jitter <= 5859.00                  → +0.009
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.001
+
+🟥 Contributions NÉGATIVES (↓ MOS):
+  - 320.00 < avg_bitrate <= 690.00                     → -0.266
+  - 5.77 < bitrate_log <= 6.54                         → -0.255
+  - 4.36 < loss_rate <= 760.00                         → -0.118
+  - 131.00 < delay_qos <= 183.00                       → -0.033
+  - 4.88 < delay_log <= 5.21                           → -0.026
 
 ---
 🎯 Instance 28
-Intercept : 2.239
-Prediction_local (LIME) : 3.697
-Prediction_model (RF)   : 4.286
-Écart : 0.589
+Intercept : 2.235
+Prediction_local (LIME) : 3.686
+Prediction_model (RF)   : 4.279
+Écart : 0.594
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.538
-  + bitrate_log > 7.27                                 → +0.507
-  + loss_rate > 760.00                                 → +0.386
-  + throughput_jitter <= 4541423.00                    → +0.081
-  + delay_log <= 4.43                                  → +0.041
-  + delay_qos <= 83.00                                 → +0.027
+  + avg_bitrate > 1430.00                              → +0.540
+  + bitrate_log > 7.27                                 → +0.496
+  + loss_rate > 760.00                                 → +0.400
+  + throughput_jitter <= 4541423.00                    → +0.067
+  + delay_qos <= 83.00                                 → +0.049
+  + delay_log <= 4.43                                  → +0.033
 
 🟥 Contributions NÉGATIVES (↓ MOS):
   - throughput > 959729.00                             → -0.107
-  - delay_jitter <= 630.00                             → -0.014
+  - delay_jitter <= 630.00                             → -0.027
 
 ---
 🎯 Instance 29
-Intercept : 2.758
-Prediction_local (LIME) : 2.152
-Prediction_model (RF)   : 2.903
-Écart : 0.751
+Intercept : 2.764
+Prediction_local (LIME) : 2.124
+Prediction_model (RF)   : 2.829
+Écart : 0.705
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput_jitter <= 4541423.00                    → +0.078
-  + throughput <= 312023.00                            → +0.063
-  + 131.00 < delay_qos <= 183.00                       → +0.001
+  + throughput_jitter <= 4541423.00                    → +0.045
+  + throughput <= 312023.00                            → +0.028
+  + 630.00 < delay_jitter <= 2145.00                   → +0.023
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.278
-  - 5.77 < bitrate_log <= 6.54                         → -0.256
-  - loss_rate <= 0.34                                  → -0.162
-  - 4.88 < delay_log <= 5.21                           → -0.031
-  - 630.00 < delay_jitter <= 2145.00                   → -0.021
+  - 320.00 < avg_bitrate <= 690.00                     → -0.274
+  - 5.77 < bitrate_log <= 6.54                         → -0.244
+  - loss_rate <= 0.34                                  → -0.214
+  - 4.88 < delay_log <= 5.21                           → -0.004
+  - 131.00 < delay_qos <= 183.00                       → -0.001
 
 ---
 🎯 Instance 30
 Intercept : 2.722
-Prediction_local (LIME) : 2.267
-Prediction_model (RF)   : 2.041
-Écart : 0.226
+Prediction_local (LIME) : 2.257
+Prediction_model (RF)   : 2.029
+Écart : 0.228
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput_jitter <= 4541423.00                    → +0.071
-  + delay_qos <= 83.00                                 → +0.056
-  + delay_log <= 4.43                                  → +0.043
-  + throughput <= 312023.00                            → +0.033
+  + throughput_jitter <= 4541423.00                    → +0.076
+  + throughput <= 312023.00                            → +0.048
+  + delay_log <= 4.43                                  → +0.035
+  + delay_qos <= 83.00                                 → +0.026
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.269
-  - 5.77 < bitrate_log <= 6.54                         → -0.261
-  - 4.36 < loss_rate <= 760.00                         → -0.128
-  - delay_jitter <= 630.00                             → -0.000
+  - 320.00 < avg_bitrate <= 690.00                     → -0.283
+  - 5.77 < bitrate_log <= 6.54                         → -0.251
+  - 4.36 < loss_rate <= 760.00                         → -0.095
+  - delay_jitter <= 630.00                             → -0.021
 
 ---
 🎯 Instance 31
-Intercept : 2.766
-Prediction_local (LIME) : 2.082
-Prediction_model (RF)   : 2.332
-Écart : 0.250
+Intercept : 2.765
+Prediction_local (LIME) : 2.100
+Prediction_model (RF)   : 2.290
+Écart : 0.190
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 490996.00 < throughput <= 959729.00                → +0.048
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.023
+  + 490996.00 < throughput <= 959729.00                → +0.052
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.271
-  - 5.77 < bitrate_log <= 6.54                         → -0.259
-  - loss_rate <= 0.34                                  → -0.168
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.022
-  - 131.00 < delay_qos <= 183.00                       → -0.021
-  - 4.88 < delay_log <= 5.21                           → -0.013
+  - 320.00 < avg_bitrate <= 690.00                     → -0.263
+  - 5.77 < bitrate_log <= 6.54                         → -0.222
+  - loss_rate <= 0.34                                  → -0.167
+  - 131.00 < delay_qos <= 183.00                       → -0.041
+  - 4.88 < delay_log <= 5.21                           → -0.016
+  - 2145.00 < delay_jitter <= 5859.00                  → -0.008
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.000
 
 ---
 🎯 Instance 32
-Intercept : 2.231
-Prediction_local (LIME) : 3.713
-Prediction_model (RF)   : 3.173
-Écart : 0.541
+Intercept : 2.230
+Prediction_local (LIME) : 3.708
+Prediction_model (RF)   : 3.146
+Écart : 0.562
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.537
-  + bitrate_log > 7.27                                 → +0.506
-  + loss_rate > 760.00                                 → +0.383
-  + 312023.00 < throughput <= 490996.00                → +0.030
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.026
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.026
+  + avg_bitrate > 1430.00                              → +0.550
+  + bitrate_log > 7.27                                 → +0.517
+  + loss_rate > 760.00                                 → +0.388
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.029
+  + 312023.00 < throughput <= 490996.00                → +0.018
+  + 2145.00 < delay_jitter <= 5859.00                  → +0.007
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 4.88 < delay_log <= 5.21                           → -0.015
-  - 131.00 < delay_qos <= 183.00                       → -0.011
+  - 131.00 < delay_qos <= 183.00                       → -0.022
+  - 4.88 < delay_log <= 5.21                           → -0.008
 
 ---
 🎯 Instance 33
-Intercept : 2.588
-Prediction_local (LIME) : 2.629
-Prediction_model (RF)   : 2.619
-Écart : 0.010
+Intercept : 2.601
+Prediction_local (LIME) : 2.581
+Prediction_model (RF)   : 2.673
+Écart : 0.093
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 6.54 < bitrate_log <= 7.27                         → +0.157
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.132
-  + 83.00 < delay_qos <= 131.00                        → +0.063
-  + 4.43 < delay_log <= 4.88                           → +0.046
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.005
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.150
+  + 6.54 < bitrate_log <= 7.27                         → +0.116
+  + 83.00 < delay_qos <= 131.00                        → +0.045
+  + 4.43 < delay_log <= 4.88                           → +0.029
+  + 2145.00 < delay_jitter <= 5859.00                  → +0.000
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - loss_rate <= 0.34                                  → -0.178
-  - throughput > 959729.00                             → -0.096
-  - throughput_jitter > 22963511.00                    → -0.089
+  - loss_rate <= 0.34                                  → -0.180
+  - throughput > 959729.00                             → -0.099
+  - throughput_jitter > 22963511.00                    → -0.082
 
 ---
 🎯 Instance 34
-Intercept : 2.909
-Prediction_local (LIME) : 1.675
-Prediction_model (RF)   : 1.778
-Écart : 0.103
+Intercept : 2.923
+Prediction_local (LIME) : 1.647
+Prediction_model (RF)   : 1.774
+Écart : 0.127
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + delay_jitter > 5859.00                             → +0.021
+  + delay_jitter > 5859.00                             → +0.024
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.397
-  - bitrate_log <= 5.77                                → -0.387
-  - loss_rate <= 0.34                                  → -0.157
-  - throughput > 959729.00                             → -0.092
-  - throughput_jitter > 22963511.00                    → -0.090
-  - delay_log > 5.21                                   → -0.074
-  - delay_qos > 183.00                                 → -0.059
+  - avg_bitrate <= 320.00                              → -0.420
+  - bitrate_log <= 5.77                                → -0.393
+  - loss_rate <= 0.34                                  → -0.191
+  - throughput > 959729.00                             → -0.104
+  - throughput_jitter > 22963511.00                    → -0.077
+  - delay_log > 5.21                                   → -0.066
+  - delay_qos > 183.00                                 → -0.048
 
 ---
 🎯 Instance 35
-Intercept : 2.712
-Prediction_local (LIME) : 2.275
-Prediction_model (RF)   : 2.012
-Écart : 0.264
+Intercept : 2.692
+Prediction_local (LIME) : 2.244
+Prediction_model (RF)   : 2.020
+Écart : 0.224
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput_jitter <= 4541423.00                    → +0.085
-  + delay_qos <= 83.00                                 → +0.053
-  + throughput <= 312023.00                            → +0.048
-  + delay_log <= 4.43                                  → +0.035
+  + throughput_jitter <= 4541423.00                    → +0.066
+  + delay_log <= 4.43                                  → +0.051
+  + delay_qos <= 83.00                                 → +0.045
+  + throughput <= 312023.00                            → +0.026
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.255
-  - 5.77 < bitrate_log <= 6.54                         → -0.254
-  - 0.34 < loss_rate <= 4.36                           → -0.117
-  - delay_jitter <= 630.00                             → -0.031
+  - 320.00 < avg_bitrate <= 690.00                     → -0.245
+  - 5.77 < bitrate_log <= 6.54                         → -0.238
+  - 0.34 < loss_rate <= 4.36                           → -0.115
+  - delay_jitter <= 630.00                             → -0.038
 
 ---
 🎯 Instance 36
-Intercept : 2.768
-Prediction_local (LIME) : 2.126
-Prediction_model (RF)   : 2.901
-Écart : 0.775
+Intercept : 2.729
+Prediction_local (LIME) : 2.178
+Prediction_model (RF)   : 2.908
+Écart : 0.730
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.018
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.032
+  + 312023.00 < throughput <= 490996.00                → +0.029
+  + 2145.00 < delay_jitter <= 5859.00                  → +0.012
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.278
-  - 5.77 < bitrate_log <= 6.54                         → -0.247
-  - 0.34 < loss_rate <= 4.36                           → -0.070
-  - 4.88 < delay_log <= 5.21                           → -0.035
-  - 312023.00 < throughput <= 490996.00                → -0.017
-  - 2145.00 < delay_jitter <= 5859.00                  → -0.013
-  - 131.00 < delay_qos <= 183.00                       → -0.001
+  - 320.00 < avg_bitrate <= 690.00                     → -0.255
+  - 5.77 < bitrate_log <= 6.54                         → -0.242
+  - 0.34 < loss_rate <= 4.36                           → -0.103
+  - 4.88 < delay_log <= 5.21                           → -0.015
+  - 131.00 < delay_qos <= 183.00                       → -0.009
 
 ---
 🎯 Instance 37
-Intercept : 2.818
-Prediction_local (LIME) : 1.925
-Prediction_model (RF)   : 1.648
-Écart : 0.277
+Intercept : 2.839
+Prediction_local (LIME) : 1.886
+Prediction_model (RF)   : 1.645
+Écart : 0.242
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput_jitter <= 4541423.00                    → +0.071
-  + throughput <= 312023.00                            → +0.039
+  + throughput_jitter <= 4541423.00                    → +0.051
+  + throughput <= 312023.00                            → +0.044
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - bitrate_log <= 5.77                                → -0.396
-  - avg_bitrate <= 320.00                              → -0.390
-  - 4.36 < loss_rate <= 760.00                         → -0.126
-  - delay_qos > 183.00                                 → -0.050
-  - delay_log > 5.21                                   → -0.038
-  - 630.00 < delay_jitter <= 2145.00                   → -0.003
+  - avg_bitrate <= 320.00                              → -0.407
+  - bitrate_log <= 5.77                                → -0.377
+  - 4.36 < loss_rate <= 760.00                         → -0.120
+  - delay_log > 5.21                                   → -0.074
+  - delay_qos > 183.00                                 → -0.060
+  - 630.00 < delay_jitter <= 2145.00                   → -0.010
 
 ---
 🎯 Instance 38
-Intercept : 2.770
-Prediction_local (LIME) : 2.098
-Prediction_model (RF)   : 2.361
-Écart : 0.263
+Intercept : 2.786
+Prediction_local (LIME) : 2.056
+Prediction_model (RF)   : 2.340
+Écart : 0.285
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 83.00 < delay_qos <= 131.00                        → +0.049
-  + 4.43 < delay_log <= 4.88                           → +0.017
+  + 4.43 < delay_log <= 4.88                           → +0.040
+  + 83.00 < delay_qos <= 131.00                        → +0.037
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.270
-  - 5.77 < bitrate_log <= 6.54                         → -0.236
-  - 4.36 < loss_rate <= 760.00                         → -0.139
-  - throughput > 959729.00                             → -0.083
-  - 630.00 < delay_jitter <= 2145.00                   → -0.007
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.003
+  - 320.00 < avg_bitrate <= 690.00                     → -0.272
+  - 5.77 < bitrate_log <= 6.54                         → -0.265
+  - 4.36 < loss_rate <= 760.00                         → -0.131
+  - throughput > 959729.00                             → -0.106
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.026
+  - 630.00 < delay_jitter <= 2145.00                   → -0.008
 
 ---
 🎯 Instance 39
-Intercept : 2.816
-Prediction_local (LIME) : 1.948
-Prediction_model (RF)   : 1.686
-Écart : 0.262
+Intercept : 2.811
+Prediction_local (LIME) : 1.934
+Prediction_model (RF)   : 1.696
+Écart : 0.237
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 490996.00 < throughput <= 959729.00                → +0.044
-  + delay_log <= 4.43                                  → +0.040
-  + delay_qos <= 83.00                                 → +0.038
+  + delay_qos <= 83.00                                 → +0.051
+  + delay_log <= 4.43                                  → +0.027
+  + 630.00 < delay_jitter <= 2145.00                   → +0.010
+  + 490996.00 < throughput <= 959729.00                → +0.005
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - bitrate_log <= 5.77                                → -0.406
-  - avg_bitrate <= 320.00                              → -0.396
-  - loss_rate <= 0.34                                  → -0.171
-  - 630.00 < delay_jitter <= 2145.00                   → -0.017
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.001
+  - avg_bitrate <= 320.00                              → -0.402
+  - bitrate_log <= 5.77                                → -0.369
+  - loss_rate <= 0.34                                  → -0.179
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.019
 
 ---
 🎯 Instance 40
-Intercept : 2.272
-Prediction_local (LIME) : 3.618
-Prediction_model (RF)   : 3.269
-Écart : 0.350
+Intercept : 2.266
+Prediction_local (LIME) : 3.609
+Prediction_model (RF)   : 3.257
+Écart : 0.353
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.552
-  + bitrate_log > 7.27                                 → +0.523
-  + loss_rate > 760.00                                 → +0.381
-  + delay_log <= 4.43                                  → +0.049
-  + delay_qos <= 83.00                                 → +0.044
+  + avg_bitrate > 1430.00                              → +0.541
+  + bitrate_log > 7.27                                 → +0.503
+  + loss_rate > 760.00                                 → +0.392
+  + delay_qos <= 83.00                                 → +0.052
+  + delay_log <= 4.43                                  → +0.043
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - throughput > 959729.00                             → -0.103
-  - throughput_jitter > 22963511.00                    → -0.088
-  - delay_jitter <= 630.00                             → -0.012
+  - throughput > 959729.00                             → -0.084
+  - throughput_jitter > 22963511.00                    → -0.076
+  - delay_jitter <= 630.00                             → -0.027
 
 ---
 🎯 Instance 41
-Intercept : 2.702
-Prediction_local (LIME) : 2.264
-Prediction_model (RF)   : 2.155
-Écart : 0.109
+Intercept : 2.724
+Prediction_local (LIME) : 2.267
+Prediction_model (RF)   : 2.148
+Écart : 0.119
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput_jitter <= 4541423.00                    → +0.089
-  + delay_log <= 4.43                                  → +0.060
-  + delay_qos <= 83.00                                 → +0.054
-  + throughput <= 312023.00                            → +0.035
+  + throughput_jitter <= 4541423.00                    → +0.070
+  + delay_log <= 4.43                                  → +0.059
+  + delay_qos <= 83.00                                 → +0.042
+  + throughput <= 312023.00                            → +0.037
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.257
-  - 5.77 < bitrate_log <= 6.54                         → -0.256
+  - 320.00 < avg_bitrate <= 690.00                     → -0.264
+  - 5.77 < bitrate_log <= 6.54                         → -0.241
   - 4.36 < loss_rate <= 760.00                         → -0.136
-  - delay_jitter <= 630.00                             → -0.028
+  - delay_jitter <= 630.00                             → -0.025
 
 ---
 🎯 Instance 42
-Intercept : 2.550
-Prediction_local (LIME) : 2.763
-Prediction_model (RF)   : 2.252
-Écart : 0.511
+Intercept : 2.592
+Prediction_local (LIME) : 2.654
+Prediction_model (RF)   : 2.281
+Écart : 0.374
 
 🟩 Contributions POSITIVES (↑ MOS):
   + 6.54 < bitrate_log <= 7.27                         → +0.145
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.129
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.047
-  + 312023.00 < throughput <= 490996.00                → +0.032
-  + 630.00 < delay_jitter <= 2145.00                   → +0.016
-  + 131.00 < delay_qos <= 183.00                       → +0.004
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.139
+  + 312023.00 < throughput <= 490996.00                → +0.024
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.000
 
 🟥 Contributions NÉGATIVES (↓ MOS):
   - loss_rate <= 0.34                                  → -0.156
-  - 4.88 < delay_log <= 5.21                           → -0.004
+  - 131.00 < delay_qos <= 183.00                       → -0.050
+  - 630.00 < delay_jitter <= 2145.00                   → -0.028
+  - 4.88 < delay_log <= 5.21                           → -0.013
 
 ---
 🎯 Instance 43
-Intercept : 2.248
-Prediction_local (LIME) : 3.662
-Prediction_model (RF)   : 4.361
-Écart : 0.699
+Intercept : 2.243
+Prediction_local (LIME) : 3.663
+Prediction_model (RF)   : 4.382
+Écart : 0.719
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.540
-  + bitrate_log > 7.27                                 → +0.518
-  + loss_rate > 760.00                                 → +0.378
-  + delay_log <= 4.43                                  → +0.049
-  + delay_qos <= 83.00                                 → +0.041
+  + avg_bitrate > 1430.00                              → +0.551
+  + bitrate_log > 7.27                                 → +0.495
+  + loss_rate > 760.00                                 → +0.379
+  + delay_qos <= 83.00                                 → +0.064
+  + delay_log <= 4.43                                  → +0.046
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - throughput > 959729.00                             → -0.093
+  - throughput > 959729.00                             → -0.089
+  - delay_jitter <= 630.00                             → -0.015
   - 10334616.00 < throughput_jitter <= 22963511.00     → -0.012
-  - delay_jitter <= 630.00                             → -0.008
 
 ---
 🎯 Instance 44
-Intercept : 2.252
-Prediction_local (LIME) : 3.646
-Prediction_model (RF)   : 2.950
-Écart : 0.696
+Intercept : 2.257
+Prediction_local (LIME) : 3.637
+Prediction_model (RF)   : 2.972
+Écart : 0.665
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + avg_bitrate > 1430.00                              → +0.539
-  + bitrate_log > 7.27                                 → +0.517
-  + loss_rate > 760.00                                 → +0.368
+  + avg_bitrate > 1430.00                              → +0.549
+  + bitrate_log > 7.27                                 → +0.462
+  + loss_rate > 760.00                                 → +0.377
+  + 83.00 < delay_qos <= 131.00                        → +0.039
   + 4.43 < delay_log <= 4.88                           → +0.036
-  + 83.00 < delay_qos <= 131.00                        → +0.029
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.018
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.021
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - throughput > 959729.00                             → -0.104
-  - delay_jitter <= 630.00                             → -0.010
+  - throughput > 959729.00                             → -0.085
+  - delay_jitter <= 630.00                             → -0.018
 
 ---
 🎯 Instance 45
-Intercept : 2.542
-Prediction_local (LIME) : 2.794
-Prediction_model (RF)   : 3.011
-Écart : 0.218
+Intercept : 2.518
+Prediction_local (LIME) : 2.828
+Prediction_model (RF)   : 3.024
+Écart : 0.196
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 690.00 < avg_bitrate <= 1430.00                    → +0.154
-  + 6.54 < bitrate_log <= 7.27                         → +0.136
-  + delay_qos <= 83.00                                 → +0.046
-  + delay_log <= 4.43                                  → +0.025
-  + 490996.00 < throughput <= 959729.00                → +0.004
+  + 690.00 < avg_bitrate <= 1430.00                    → +0.157
+  + 6.54 < bitrate_log <= 7.27                         → +0.137
+  + delay_qos <= 83.00                                 → +0.065
+  + delay_log <= 4.43                                  → +0.036
+  + 490996.00 < throughput <= 959729.00                → +0.036
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.025
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 0.34 < loss_rate <= 4.36                           → -0.085
-  - delay_jitter <= 630.00                             → -0.020
-  - 4541423.00 < throughput_jitter <= 10334616.00      → -0.009
+  - 0.34 < loss_rate <= 4.36                           → -0.121
+  - delay_jitter <= 630.00                             → -0.024
 
 ---
 🎯 Instance 46
-Intercept : 2.748
-Prediction_local (LIME) : 2.170
-Prediction_model (RF)   : 2.169
-Écart : 0.001
+Intercept : 2.754
+Prediction_local (LIME) : 2.133
+Prediction_model (RF)   : 2.183
+Écart : 0.050
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput <= 312023.00                            → +0.040
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.019
-  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.017
-  + 131.00 < delay_qos <= 183.00                       → +0.001
+  + throughput <= 312023.00                            → +0.041
+  + 4541423.00 < throughput_jitter <= 10334616.00      → +0.015
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 320.00 < avg_bitrate <= 690.00                     → -0.277
-  - 5.77 < bitrate_log <= 6.54                         → -0.246
-  - 4.36 < loss_rate <= 760.00                         → -0.105
-  - 4.88 < delay_log <= 5.21                           → -0.027
+  - 320.00 < avg_bitrate <= 690.00                     → -0.269
+  - 5.77 < bitrate_log <= 6.54                         → -0.242
+  - 4.36 < loss_rate <= 760.00                         → -0.097
+  - 4.88 < delay_log <= 5.21                           → -0.037
+  - 131.00 < delay_qos <= 183.00                       → -0.030
+  - 2145.00 < delay_jitter <= 5859.00                  → -0.003
 
 ---
 🎯 Instance 47
-Intercept : 2.753
-Prediction_local (LIME) : 2.097
-Prediction_model (RF)   : 2.203
-Écart : 0.106
+Intercept : 2.789
+Prediction_local (LIME) : 2.052
+Prediction_model (RF)   : 2.216
+Écart : 0.164
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + 2145.00 < delay_jitter <= 5859.00                  → +0.024
-  + 490996.00 < throughput <= 959729.00                → +0.021
-  + 4.88 < delay_log <= 5.21                           → +0.006
+  + 490996.00 < throughput <= 959729.00                → +0.016
+  + 2145.00 < delay_jitter <= 5859.00                  → +0.012
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 5.77 < bitrate_log <= 6.54                         → -0.254
-  - 320.00 < avg_bitrate <= 690.00                     → -0.253
-  - loss_rate <= 0.34                                  → -0.174
+  - 320.00 < avg_bitrate <= 690.00                     → -0.269
+  - 5.77 < bitrate_log <= 6.54                         → -0.244
+  - loss_rate <= 0.34                                  → -0.187
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.027
+  - 4.88 < delay_log <= 5.21                           → -0.020
   - 131.00 < delay_qos <= 183.00                       → -0.018
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.008
 
 ---
 🎯 Instance 48
-Intercept : 2.713
-Prediction_local (LIME) : 2.282
-Prediction_model (RF)   : 1.649
-Écart : 0.633
+Intercept : 2.728
+Prediction_local (LIME) : 2.219
+Prediction_model (RF)   : 1.644
+Écart : 0.575
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + throughput_jitter <= 4541423.00                    → +0.084
-  + 4.43 < delay_log <= 4.88                           → +0.049
-  + throughput <= 312023.00                            → +0.041
-  + 83.00 < delay_qos <= 131.00                        → +0.028
+  + throughput_jitter <= 4541423.00                    → +0.070
+  + 83.00 < delay_qos <= 131.00                        → +0.046
+  + 4.43 < delay_log <= 4.88                           → +0.031
+  + throughput <= 312023.00                            → +0.016
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - 5.77 < bitrate_log <= 6.54                         → -0.268
-  - 320.00 < avg_bitrate <= 690.00                     → -0.266
-  - 4.36 < loss_rate <= 760.00                         → -0.089
-  - delay_jitter <= 630.00                             → -0.010
+  - 320.00 < avg_bitrate <= 690.00                     → -0.274
+  - 5.77 < bitrate_log <= 6.54                         → -0.245
+  - 4.36 < loss_rate <= 760.00                         → -0.122
+  - delay_jitter <= 630.00                             → -0.032
 
 ---
 🎯 Instance 49
-Intercept : 2.856
-Prediction_local (LIME) : 1.882
-Prediction_model (RF)   : 1.624
-Écart : 0.258
+Intercept : 2.843
+Prediction_local (LIME) : 1.860
+Prediction_model (RF)   : 1.629
+Écart : 0.231
 
 🟩 Contributions POSITIVES (↑ MOS):
-  + delay_jitter > 5859.00                             → +0.040
-  + throughput <= 312023.00                            → +0.038
+  + throughput <= 312023.00                            → +0.051
+  + delay_jitter > 5859.00                             → +0.024
 
 🟥 Contributions NÉGATIVES (↓ MOS):
-  - avg_bitrate <= 320.00                              → -0.411
-  - bitrate_log <= 5.77                                → -0.396
-  - loss_rate <= 0.34                                  → -0.165
-  - delay_qos > 183.00                                 → -0.045
-  - delay_log > 5.21                                   → -0.031
-  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.004
+  - avg_bitrate <= 320.00                              → -0.407
+  - bitrate_log <= 5.77                                → -0.382
+  - loss_rate <= 0.34                                  → -0.177
+  - delay_qos > 183.00                                 → -0.056
+  - delay_log > 5.21                                   → -0.028
+  - 10334616.00 < throughput_jitter <= 22963511.00     → -0.008

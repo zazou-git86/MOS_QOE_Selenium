@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divAW31GULD2X39Q3Z"></div>
+        <div class="lime top_div" id="top_divL889Z9KQXKVM5FQ"></div>
         
         <script>
-        var top_div = d3.select('#top_divAW31GULD2X39Q3Z').classed('lime top_div', true);
+        var top_div = d3.select('#top_divL889Z9KQXKVM5FQ').classed('lime top_div', true);
         
         
                     var pp_div = top_div.append('div')
                                         .classed('lime predicted_value', true);
                     var pp_svg = pp_div.append('svg').style('width', '100%');
-                    var pp = new lime.PredictedValue(pp_svg, 2.6151999999999913, 1.5708999999999993, 4.148366666666674);
+                    var pp = new lime.PredictedValue(pp_svg, 2.59144999999999, 1.5602666666666694, 4.038350000000009);
                     
         var exp_div;
             var exp = new lime.Explanation(["negative", "positive"]);
         
             exp_div = top_div.append('div').classed('lime explanation', true);
-            exp.show([["loss_rate <= 0.34", -0.15032491231830386], ["690.00 < avg_bitrate <= 1430.00", 0.14631314615270072], ["6.54 < bitrate_log <= 7.27", 0.1438256935794005], ["4541423.00 < throughput_jitter <= 10334616.00", 0.026010510331369138], ["312023.00 < throughput <= 490996.00", 0.019359876815563903], ["131.00 < delay_qos <= 183.00", -0.01854716988747766], ["2145.00 < delay_jitter <= 5859.00", 0.004911135889490301], ["4.88 < delay_log <= 5.21", -0.004599882133821691]], 1, exp_div);
+            exp.show([["loss_rate <= 0.34", -0.16911843423529827], ["6.54 < bitrate_log <= 7.27", 0.14312576067531185], ["690.00 < avg_bitrate <= 1430.00", 0.13816792785181772], ["312023.00 < throughput <= 490996.00", 0.052874258025391384], ["4.88 < delay_log <= 5.21", -0.02736147290153501], ["2145.00 < delay_jitter <= 5859.00", 0.017118997637406545], ["131.00 < delay_qos <= 183.00", -0.0009211714478411615], ["4541423.00 < throughput_jitter <= 10334616.00", 0.0002252402625355872]], 1, exp_div);
             
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["loss_rate", "0.32", -0.15032491231830386], ["avg_bitrate", "950.00", 0.14631314615270072], ["bitrate_log", "6.86", 0.1438256935794005], ["throughput_jitter", "5960610.00", 0.026010510331369138], ["throughput", "397374.00", 0.019359876815563903], ["delay_qos", "171.00", -0.01854716988747766], ["delay_jitter", "2565.00", 0.004911135889490301], ["delay_log", "5.15", -0.004599882133821691]], 1, raw_div);
+            exp.show_raw_tabular([["loss_rate", "0.32", -0.16911843423529827], ["bitrate_log", "6.86", 0.14312576067531185], ["avg_bitrate", "950.00", 0.13816792785181772], ["throughput", "397374.00", 0.052874258025391384], ["delay_log", "5.15", -0.02736147290153501], ["delay_jitter", "2565.00", 0.017118997637406545], ["delay_qos", "171.00", -0.0009211714478411615], ["throughput_jitter", "5960610.00", 0.0002252402625355872]], 1, raw_div);
         
         </script>
         </body></html>
